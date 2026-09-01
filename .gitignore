@@ -1,3 +1,5 @@
-# Ignore common editor files
-.DS_Store
-Thumbs.db
+uploads/farmer_photos/*
+uploads/id_proofs/*
+
+!uploads/farmer_photos/.htaccess
+!uploads/id_proofs/.htaccess
