@@ -1,13 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Farmer Support</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1>Farmer Support</h1>
-    <p>Ask a question or get support from the Kendra team.</p>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer Support | Krushi Seva Kendra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="logo-box">
+        <img src="images/logo.png" alt="Logo">
+        <div>
+            <h2>Krushi Seva Kendra</h2>
+            <span>Farmer Support & Agricultural Solutions</span>
+        </div>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products/products.html">Products</a>
+        <a href="farmer/farmer-info.html">Farmer Hub</a>
+        <a href="farmer-support.html" class="active">Support</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html" class="nav-btn">Login</a>
+    </nav>
+</header>
+
+
+<section class="page-header">
+    <span class="small-title">FARMER HELPLINE</span>
+    <h1>How Can We Help?</h1>
+    <p>
+        Ask your question about crops, fertilizers, products or farming.
+    </p>
+</section>
+
+
+<section class="section">
+
+    <div class="form-layout">
+
+        <div class="support-info">
+            <span class="small-title">FARMER SUPPORT</span>
+            <h2>Ask a Farming Question</h2>
+
+            <p>
+                Fill in the form and describe your farming requirement.
+                Our support section can help you find relevant
+                information.
+            </p>
+
+            <div class="info-box">
+                🌾 Crop Information
+            </div>
+
+            <div class="info-box">
+                🧪 Fertilizer Guidance
+            </div>
+
+            <div class="info-box">
+                🐛 Crop Protection
+            </div>
+
+            <div class="info-box">
+                🛠 Agricultural Equipment
+            </div>
+        </div>
+
+
+        <form class="support-form">
+
+            <label for="name">Farmer Name</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+            >
+
+            <label for="mobile">Mobile Number</label>
+            <input
+                type="tel"
+                id="mobile"
+                name="mobile"
+                placeholder="Enter mobile number"
+                required
+            >
+
+            <label for="crop">Select Crop</label>
+
+            <select id="crop" name="crop">
+                <option value="">Choose a crop</option>
+                <option value="maize">Maize</option>
+                <option value="wheat">Wheat</option>
+                <option value="onion">Onion</option>
+                <option value="other">Other</option>
+            </select>
+
+
+            <label for="category">Question Category</label>
+
+            <select id="category" name="category">
+                <option value="">Select category</option>
+                <option>Crop Information</option>
+                <option>Fertilizer</option>
+                <option>Pesticide</option>
+                <option>Seeds</option>
+                <option>Equipment</option>
+                <option>Other</option>
+            </select>
+
+
+            <label for="question">Your Question</label>
+
+            <textarea
+                id="question"
+                name="question"
+                rows="6"
+                placeholder="Describe your farming question..."
+                required
+            ></textarea>
+
+
+            <button type="submit" class="btn primary-btn">
+                Submit Question
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<footer>
+    <div class="copyright">
+        © 2026 Krushi Seva Kendra. All Rights Reserved.
+    </div>
+</footer>
+
+</body>
 </html>
