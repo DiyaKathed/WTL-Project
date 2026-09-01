@@ -256,7 +256,7 @@ if (
 
         const formData = new FormData();
 
-        formData.append("email", email);
+        formData.append("login", email);
         formData.append("password", password);
 
 
