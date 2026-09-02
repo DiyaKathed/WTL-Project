@@ -185,7 +185,6 @@ nav a.active {
 
 .secondary-btn:hover {
     background: #edf5ea;
-    transform: translateY(-2px);
 }
 
 .light-btn {
